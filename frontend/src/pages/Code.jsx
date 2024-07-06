@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import io from "socket.io-client";
 import { Editor } from "@monaco-editor/react";
 
-const ENDPOINT = "http://localhost:3000/";
+const ENDPOINT = "https://cooperative-code-editor.onrender.com";
 var socket;
 var id;
 const Code = () => {
